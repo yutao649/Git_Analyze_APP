@@ -20,7 +20,7 @@ public class GitFileProcessor {
     private static Set<String> filePath=new HashSet<>();
 
     public static void findFile() throws Exception {
-        System.out.println("=================从git中查找统计符合条件的提交信息==================");
+        System.out.println("==================从git中查找统计符合条件的提交信息==================");
         processor();
         String localFileCatalogue = ConfigProperties.getLocalFileCatalogue();
         System.out.println("=================开始找文件,并将文件复制至："+ localFileCatalogue);
